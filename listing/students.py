@@ -104,16 +104,9 @@ students = [
     "Candle set (gift)",
     "Bike gear (grouped)",
     "Ski gear (grouped and stored until Winter)",
-    1,2,3,4,5,
-    True, False
+   
 ]
 
-students = [
-    'fardin', 
-    'shafaith', 
-    'rafi', 
-    'humaira', 
-    'owaji' ]
 
 
 
@@ -123,13 +116,10 @@ print(students[2])
 print(students[3])
 
 
-# print student name
-# for i in range(1,105):
-#     print(students[i])
 
 for student in students:
-    print( student)
+    print( student )
 
 
-#count student length
-print(len(students))
+
+print(len (students))
