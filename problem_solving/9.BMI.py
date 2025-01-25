@@ -8,9 +8,7 @@ convertToMeter = height * 0.3048
 weight = float(weight)
 
 bmi = weight / (convertToMeter**2)
-
-#  bmi = "%.4g" % (bmi)
-
+# bmi = "%.4g" % (bmi)
 
 if 18.5 > bmi:
     print("your BMI category : Underweight")
